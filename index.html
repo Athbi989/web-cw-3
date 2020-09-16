@@ -14,6 +14,7 @@
         width: 150px;
         height: 350px;
         background-color: black;
+        margin: auto;
       }
 
       .circle {
@@ -27,7 +28,20 @@
 
       img {
         /* عدل على عرض الصورة */
+        width: 250px;
       }
+
+      .circle-red {
+        background-color: red;
+      }
+      .circle-green {
+        background-color: green;
+      }
+      .circle-yellow {
+        background-color: yellow;
+      }
+
+
     </style>
   </head>
   <body>
@@ -36,13 +50,13 @@
     <!--            30 px غير حجم الخط الى-             -->
     <!--   (inline styling) p تلميح: ستغير خصائص عنصر   -->
     <!----------------====================---------------->
-    <p>مرحباً، أنا تمرين CSS</p>
+    <p style="color: orange; font-size: 30px; text-align: center;">مرحباً، أنا تمرين CSS</p>
 
     <!-------------------المطلوب الثاني------------------->
     <!--             اجعل عرض الصورة ٢٥٠ بكسل-          -->
     <!--     فوق CSS في img تلميح: ستغير خصائص عنصر     -->
     <!----------------====================---------------->
-    <img src="./car.png" alt="" />
+    <img src="./img/car.png" alt="" />
 
     <!-------------------المطلوب الثالث------------------->
     <!--  غير لون خلفية الدوائر حتى يصبح شكل اشارة مرور -->
@@ -50,9 +64,9 @@
     <!-- style تلميح: ستغير خصائص الكلاسات اللي فوق داخل -->
     <!----------------====================---------------->
     <div class="square">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <div class="circle circle-red"></div>
+      <div class="circle circle-yellow"></div>
+      <div class="circle circle-green"></div>
     </div>
 
     <!----------------====================---------------->
